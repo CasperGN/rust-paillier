@@ -1,4 +1,3 @@
-#![feature(test)]
 #![feature(specialization)]
 
 extern crate bit_vec;
@@ -8,7 +7,6 @@ extern crate rayon;
 #[cfg(feature = "proofs")]
 extern crate ring;
 extern crate serde;
-extern crate test;
 #[macro_use]
 extern crate serde_derive;
 
